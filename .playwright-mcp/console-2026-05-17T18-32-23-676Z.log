@@ -1,0 +1,4 @@
+[    1400ms] [ERROR] Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ https://testautomationpractice.blogspot.com/:968
+[    3124ms] [ERROR] Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ https://testautomationpractice.blogspot.com/:1824
+[    3447ms] [ERROR] Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ https://testautomationpractice.blogspot.com/:1864
+[   29250ms] [LOG] Found name field: JSHandle@node @ :3

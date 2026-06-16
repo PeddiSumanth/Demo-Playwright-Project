@@ -1,0 +1,928 @@
+{
+  "pageTitle": "Automation Testing Practice",
+  "pageUrl": "https://testautomationpractice.blogspot.com/",
+  "allInputs": [
+    {
+      "index": 0,
+      "type": "text",
+      "id": "name",
+      "name": "",
+      "value": "",
+      "class": "form-control",
+      "placeholder": "Enter Name",
+      "disabled": false,
+      "required": true,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 1,
+      "type": "text",
+      "id": "email",
+      "name": "",
+      "value": "",
+      "class": "form-control",
+      "placeholder": "Enter EMail",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 2,
+      "type": "text",
+      "id": "phone",
+      "name": "",
+      "value": "",
+      "class": "form-control",
+      "placeholder": "Enter Phone",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 12,
+      "type": "text",
+      "id": "datepicker",
+      "name": "",
+      "value": "",
+      "class": "hasDatepicker",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 13,
+      "type": "text",
+      "id": "txtDate",
+      "name": "SelectedDate",
+      "value": "",
+      "class": "hasDatepicker",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": true,
+      "pattern": ""
+    },
+    {
+      "index": 14,
+      "type": "date",
+      "id": "start-date",
+      "name": "",
+      "value": "",
+      "class": "",
+      "placeholder": "Start Date",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 15,
+      "type": "date",
+      "id": "end-date",
+      "name": "",
+      "value": "",
+      "class": "",
+      "placeholder": "End Date",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 16,
+      "type": "file",
+      "id": "singleFileInput",
+      "name": "",
+      "value": "",
+      "class": "",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 17,
+      "type": "file",
+      "id": "multipleFilesInput",
+      "name": "",
+      "value": "",
+      "class": "",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 23,
+      "type": "text",
+      "id": "Wikipedia1_wikipedia-search-input",
+      "name": "",
+      "value": "",
+      "class": "wikipedia-search-input",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 24,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "value": "",
+      "class": "wikipedia-search-button",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 25,
+      "type": "text",
+      "id": "field1",
+      "name": "",
+      "value": "Hello World!",
+      "class": "",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 26,
+      "type": "text",
+      "id": "field2",
+      "name": "",
+      "value": "",
+      "class": "",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 27,
+      "type": "text",
+      "id": "amount",
+      "name": "",
+      "value": "$75 - $300",
+      "class": "",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": true,
+      "pattern": ""
+    },
+    {
+      "index": 28,
+      "type": "text",
+      "id": "comboBox",
+      "name": "",
+      "value": "",
+      "class": "",
+      "placeholder": "Select an item",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 29,
+      "type": "text",
+      "id": "input1",
+      "name": "input1",
+      "value": "",
+      "class": "input-field",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 30,
+      "type": "text",
+      "id": "input2",
+      "name": "input2",
+      "value": "",
+      "class": "input-field",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    },
+    {
+      "index": 31,
+      "type": "text",
+      "id": "input3",
+      "name": "input3",
+      "value": "",
+      "class": "input-field",
+      "placeholder": "",
+      "disabled": false,
+      "required": false,
+      "readonly": false,
+      "pattern": ""
+    }
+  ],
+  "allButtons": [
+    {
+      "index": 0,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "class": "submit-btn",
+      "value": "Submit",
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "class": "",
+      "value": "Upload Single File",
+      "disabled": false
+    },
+    {
+      "index": 2,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "class": "",
+      "value": "Upload Multiple Files",
+      "disabled": false
+    },
+    {
+      "index": 3,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "class": "wikipedia-search-button",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "type": "submit",
+      "id": "",
+      "name": "start",
+      "class": "start",
+      "value": "START",
+      "disabled": false
+    },
+    {
+      "index": 5,
+      "type": "submit",
+      "id": "alertBtn",
+      "name": "",
+      "class": "",
+      "value": "Simple Alert",
+      "disabled": false
+    },
+    {
+      "index": 6,
+      "type": "submit",
+      "id": "confirmBtn",
+      "name": "",
+      "class": "",
+      "value": "Confirmation Alert",
+      "disabled": false
+    },
+    {
+      "index": 7,
+      "type": "submit",
+      "id": "promptBtn",
+      "name": "",
+      "class": "",
+      "value": "Prompt Alert",
+      "disabled": false
+    },
+    {
+      "index": 8,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "class": "",
+      "value": "New Tab",
+      "disabled": false
+    },
+    {
+      "index": 9,
+      "type": "submit",
+      "id": "PopUp",
+      "name": "",
+      "class": "",
+      "value": "Popup Windows",
+      "disabled": false
+    },
+    {
+      "index": 10,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "class": "dropbtn",
+      "value": "Point Me",
+      "disabled": false
+    },
+    {
+      "index": 11,
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "class": "",
+      "value": "Copy Text",
+      "disabled": false
+    },
+    {
+      "index": 12,
+      "type": "submit",
+      "id": "btn1",
+      "name": "",
+      "class": "rectangular-button",
+      "value": "Submit",
+      "disabled": false
+    },
+    {
+      "index": 13,
+      "type": "submit",
+      "id": "btn2",
+      "name": "",
+      "class": "rectangular-button",
+      "value": "Submit",
+      "disabled": false
+    },
+    {
+      "index": 14,
+      "type": "submit",
+      "id": "btn3",
+      "name": "",
+      "class": "rectangular-button",
+      "value": "Submit",
+      "disabled": false
+    }
+  ],
+  "allSelects": [
+    {
+      "index": 0,
+      "id": "country",
+      "name": "",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "usa",
+          "text": "United States"
+        },
+        {
+          "value": "canada",
+          "text": "Canada"
+        },
+        {
+          "value": "uk",
+          "text": "United Kingdom"
+        },
+        {
+          "value": "germany",
+          "text": "Germany"
+        },
+        {
+          "value": "france",
+          "text": "France"
+        },
+        {
+          "value": "australia",
+          "text": "Australia"
+        },
+        {
+          "value": "japan",
+          "text": "Japan"
+        },
+        {
+          "value": "china",
+          "text": "China"
+        },
+        {
+          "value": "brazil",
+          "text": "Brazil"
+        },
+        {
+          "value": "india",
+          "text": "India"
+        }
+      ],
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 1,
+      "id": "colors",
+      "name": "",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "red",
+          "text": "Red"
+        },
+        {
+          "value": "blue",
+          "text": "Blue"
+        },
+        {
+          "value": "green",
+          "text": "Green"
+        },
+        {
+          "value": "yellow",
+          "text": "Yellow"
+        },
+        {
+          "value": "red",
+          "text": "Red"
+        },
+        {
+          "value": "white",
+          "text": "White"
+        },
+        {
+          "value": "green",
+          "text": "Green"
+        }
+      ],
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 2,
+      "id": "animals",
+      "name": "animals",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "cat",
+          "text": "Cat"
+        },
+        {
+          "value": "cheetah",
+          "text": "Cheetah"
+        },
+        {
+          "value": "deer",
+          "text": "Deer"
+        },
+        {
+          "value": "dog",
+          "text": "Dog"
+        },
+        {
+          "value": "elephant",
+          "text": "Elephant"
+        },
+        {
+          "value": "fox",
+          "text": "Fox"
+        },
+        {
+          "value": "giraffe",
+          "text": "Giraffe"
+        },
+        {
+          "value": "lion",
+          "text": "Lion"
+        },
+        {
+          "value": "rabbit",
+          "text": "Rabbit"
+        },
+        {
+          "value": "zebra",
+          "text": "Zebra"
+        }
+      ],
+      "disabled": false,
+      "required": false
+    }
+  ],
+  "allLinks": [
+    {
+      "index": 0,
+      "href": "http://testautomationpractice.blogspot.com/",
+      "text": "Home",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 1,
+      "href": "https://www.pavanonlinetrainings.com/#udemy",
+      "text": "Udemy Courses",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 2,
+      "href": "https://www.pavanonlinetrainings.com/",
+      "text": "Online Trainings",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 3,
+      "href": "https://www.pavantestingtools.com/",
+      "text": "Blog",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 4,
+      "href": "https://testautomationpractice.blogspot.com/p/playwrightpractice.html",
+      "text": "PlaywrightPractice",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 6,
+      "href": "https://testautomationpractice.blogspot.com/2018/09/automation-form.html",
+      "text": "GUI Elements",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 7,
+      "href": "https://testautomationpractice.blogspot.com/",
+      "text": "Home",
+      "id": "",
+      "class": "home-link"
+    },
+    {
+      "index": 8,
+      "href": "https://testautomationpractice.blogspot.com/feeds/posts/default",
+      "text": "Posts (Atom)",
+      "id": "",
+      "class": "feed-link"
+    },
+    {
+      "index": 9,
+      "href": "https://testautomationpractice.blogspot.com/#",
+      "text": "1",
+      "id": "",
+      "class": "active"
+    },
+    {
+      "index": 10,
+      "href": "https://testautomationpractice.blogspot.com/#",
+      "text": "2",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 11,
+      "href": "https://testautomationpractice.blogspot.com/#",
+      "text": "3",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 12,
+      "href": "https://testautomationpractice.blogspot.com/#",
+      "text": "4",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 13,
+      "href": "https://wikipedia.org/wiki/",
+      "text": " ",
+      "id": "",
+      "class": "wikipedia-search-wiki-link"
+    },
+    {
+      "index": 14,
+      "href": "https://testautomationpractice.blogspot.com/#",
+      "text": "Mobiles",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 15,
+      "href": "https://testautomationpractice.blogspot.com/#",
+      "text": "Laptops",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 16,
+      "href": "https://www.apple.com/",
+      "text": "Apple",
+      "id": "apple",
+      "class": "link"
+    },
+    {
+      "index": 17,
+      "href": "https://www.lenovo.com/",
+      "text": "Lenovo",
+      "id": "lenovo",
+      "class": "link"
+    },
+    {
+      "index": 18,
+      "href": "https://www.dell.com/",
+      "text": "Dell",
+      "id": "dell",
+      "class": "link"
+    },
+    {
+      "index": 19,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=400",
+      "text": "Errorcode 400",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 20,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=401",
+      "text": "Errorcode 401",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 21,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=403",
+      "text": "Errorcode 403",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 22,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=404",
+      "text": "Errorcode 404",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 23,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=408",
+      "text": "Errorcode 408",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 24,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=500",
+      "text": "Errorcode 500",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 25,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=502",
+      "text": "Errorcode 502",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 26,
+      "href": "http://www.deadlinkcity.com/error-page.asp?e=503",
+      "text": "Errorcode 503",
+      "id": "",
+      "class": "link"
+    },
+    {
+      "index": 27,
+      "href": "http://testautomationpractice.blogspot.com/",
+      "text": "Home",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 28,
+      "href": "https://testautomationpractice.blogspot.com/p/gui-elements-ajax-hidden.html",
+      "text": "Hidden Elements & AJAX",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 29,
+      "href": "https://testautomationpractice.blogspot.com/p/download-files_25.html",
+      "text": "Download Files",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 30,
+      "href": "https://www.youtube.com/@sdetpavan/videos",
+      "text": "Youtube",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 31,
+      "href": "http://www.istockphoto.com/portfolio/merrymoonmary?platform=blogger",
+      "text": "merrymoonmary",
+      "id": "",
+      "class": ""
+    },
+    {
+      "index": 32,
+      "href": "https://www.blogger.com/",
+      "text": "Blogger",
+      "id": "",
+      "class": ""
+    }
+  ],
+  "allTables": [
+    {
+      "index": 0,
+      "id": "",
+      "class": "",
+      "rowCount": 7
+    },
+    {
+      "index": 1,
+      "id": "taskTable",
+      "class": "",
+      "rowCount": 5
+    },
+    {
+      "index": 2,
+      "id": "productTable",
+      "class": "",
+      "rowCount": 6
+    },
+    {
+      "index": 3,
+      "id": "",
+      "class": "",
+      "rowCount": 31
+    },
+    {
+      "index": 4,
+      "id": "",
+      "class": "section-columns columns-2",
+      "rowCount": 1
+    }
+  ],
+  "allTextareas": [
+    {
+      "index": 0,
+      "id": "textarea",
+      "name": "",
+      "class": "form-control",
+      "placeholder": "",
+      "disabled": false,
+      "required": false
+    }
+  ],
+  "allCheckboxes": [
+    {
+      "index": 5,
+      "id": "sunday",
+      "name": "",
+      "value": "sunday",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 6,
+      "id": "monday",
+      "name": "",
+      "value": "monday",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 7,
+      "id": "tuesday",
+      "name": "",
+      "value": "tuesday",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 8,
+      "id": "wednesday",
+      "name": "",
+      "value": "wednesday",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 9,
+      "id": "thursday",
+      "name": "",
+      "value": "thursday",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 10,
+      "id": "friday",
+      "name": "",
+      "value": "friday",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 11,
+      "id": "saturday",
+      "name": "",
+      "value": "saturday",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 18,
+      "id": "",
+      "name": "",
+      "value": "on",
+      "class": "",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 19,
+      "id": "",
+      "name": "",
+      "value": "on",
+      "class": "",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 20,
+      "id": "",
+      "name": "",
+      "value": "on",
+      "class": "",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 21,
+      "id": "",
+      "name": "",
+      "value": "on",
+      "class": "",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    },
+    {
+      "index": 22,
+      "id": "",
+      "name": "",
+      "value": "on",
+      "class": "",
+      "checked": false,
+      "disabled": false,
+      "required": false
+    }
+  ],
+  "allRadios": [
+    {
+      "index": 3,
+      "id": "male",
+      "name": "gender",
+      "value": "male",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "id": "female",
+      "name": "gender",
+      "value": "female",
+      "class": "form-check-input",
+      "checked": false,
+      "disabled": false
+    }
+  ]
+}
