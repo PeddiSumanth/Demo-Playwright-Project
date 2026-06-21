@@ -48,7 +48,7 @@ test.describe('Checkboxes Testing', () => {
     const mondayCheckbox = page.locator('#monday');
     const wednesdayCheckbox = page.locator('#wednesday');
     const fridayCheckbox = page.locator('#friday');
-    const tuesdayCheckbox = page.locator('#tuesday');
+    
 
     // Verify all checkboxes are visible and unchecked
     await expect(mondayCheckbox).not.toBeChecked();
